@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class LetsTalk extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        "first_name",
+        "last_name",
+        "personal_phone",
+        "personal_email",
+        "company",
+        "message"
+    ];
 }
