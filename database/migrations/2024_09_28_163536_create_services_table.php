@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('image')->nullable();
             $table->longText('content')->nullable();
             $table->longText('tag_content')->nullable();
+            $table->integer('sorting')->nullable();
             $table->timestamps();
         });
     }
