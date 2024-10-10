@@ -39,10 +39,10 @@
         @if($services)
             @foreach($services as $service)
                 @php
-                $tags = json_decode($service->tag_content);
+                $tags = json_decode($service->tag_content, true);
+                $countTags = count($tags);
                 @endphp
                  @if($service->tag_content != null && !empty($tags))
-
                     <div
                         style="width: 100%; margin: 0 auto"
                         class="max-w-sm bg-white border border-gray-200 flex flex-col rounded-lg shadow h-100 hover:border-[#910101]">
@@ -154,15 +154,8 @@
                                 alt="" />
 
                             <div class="pt-5 w-10/12 m-auto">
-
-
                                 @foreach($tags as $tag)
-
-                                    {{ $loop->first }}
-                                    {{ $loop->last }}
-
-
-                                    @if ($loop->first)
+                                    @if ($loop->iteration == 1)
                                         <div class="flex pt-5">
                                             <svg
                                                 width="40"
@@ -191,9 +184,9 @@
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            <p>{{ $tag->title }}</p>
+                                            <p>{{ $tag['title'] }}</p>
                                         </div>
-                                    @elseif($loop->last)
+                                    @elseif($loop->iteration == $countTags)
                                         <div class="flex pt-4 pb-20">
                                             <svg
                                                 width="40"
@@ -223,7 +216,7 @@
                                                 </defs>
                                             </svg>
                                             <button onclick="toggleDivs2()">
-                                                <p>{{ $tag->title }}</p>
+                                                <p>{{ $tag['title'] }}</p>
                                             </button>
                                         </div>
                                     @else
@@ -255,16 +248,14 @@
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            <p>{{ $tag->title }}</p>
+                                            <p>{{ $tag['title'] }}</p>
                                         </div>
                                     @endif
                                 @endforeach
-
                             </div>
                         </div>
                     </div>
                 @else
-
                     <div
                         style="width: 100%; margin: 0 auto"
                         class="max-w-sm bg-white border border-gray-200 flex flex-col rounded-lg shadow h-100 hover:border-[#910101]">
