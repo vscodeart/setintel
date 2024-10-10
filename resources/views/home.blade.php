@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('content')
     <div>
-        <div id="heroVideoContainer" class="relative h-[calc(50vh-54px)] w-full overflow-hidden lg:h-[calc(50vh-78px)] bg-[url('{{Voyager::image($home->video_thumb) }}')]">
+        <div id="heroVideoContainer" class="relative h-[calc(50vh-54px)] w-full overflow-hidden lg:h-[calc(50vh-78px)] " style=" background-image: url({{Voyager::image($home->video_thumb) }});" >
 
             @php
               $videoPath =  getVideoUri($home->video_file)
