@@ -51,7 +51,7 @@
                             <p
                                 class="pt-2 font-bold text-2xl"
                                 style="color: rgba(53, 47, 47, 0.822)">
-                                {{ $service->name }}
+                                {{ $service->id }}   {{ $service->name }}
                             </p>
                         </div>
 
@@ -264,7 +264,7 @@
                             <p
                                 class="pt-2 font-bold text-2xl"
                                 style="color: rgba(53, 47, 47, 0.822)">
-                                {{ $service->name }}
+                                {{ $service->name }}  {{ $service->name }}
                             </p>
                         </div>
 
