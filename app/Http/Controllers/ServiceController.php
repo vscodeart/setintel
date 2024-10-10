@@ -10,7 +10,7 @@ class ServiceController extends Controller
     public function index()
     {
 
-        $model  = Service::orderBy('created_at', 'desc')->get();
+        $model  = Service::orderBy('id')->get();
 
         return view('services',
         [
