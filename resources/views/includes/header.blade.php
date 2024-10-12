@@ -112,7 +112,7 @@
         </div>
 
         <div class="lg:hidden flex flex-1 justify-end mr-2">
-            <a href="">
+            <a href="" class="mobile-menu-close">
                 <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="24" height="1" fill="#303030"/>
                     <rect x="8" y="7" width="16" height="1" fill="#303030"/>
@@ -122,11 +122,11 @@
 
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
-    <div class="lg:hidden hidden" role="dialog" aria-modal="true">
+    <div class="lg:hidden hidden mobile-menu-content" role="dialog" aria-modal="true">
         <!-- Background backdrop, show/hide based on slide-over state. -->
         <div class="fixed inset-0 z-10"></div>
         <div
-            class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10" style="z-index: 41;">
             <div class="flex items-center justify-between">
                 <a href="#" class="-m-1.5 p-1.5">
                     <span class="sr-only">Your Company</span>
@@ -180,7 +180,7 @@
                         </defs>
                     </svg>
                 </a>
-                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700 close-mobile-menu">
                     <span class="sr-only">Close menu</span>
                     <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                          aria-hidden="true">
@@ -193,35 +193,35 @@
 
 
                     <div class="space-y-2 py-6">
-                        <a href="#"
+                        <a href="{{ route('home') }}"
                            class="-mx-3 flex justify-center block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                             <div
                                 class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]">
                                 Home
                             </div>
                         </a>
-                        <a href="#"
+                        <a href="{{ route('services') }}"
                            class="-mx-3 flex justify-center block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                             <div
                                 class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]">
                                 Services
                             </div>
                         </a>
-                        <a href="#"
+                        <a href="{{ route('about') }}"
                            class="-mx-3 flex justify-center block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                             <div
                                 class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]">
                                 Who are we
                             </div>
                         </a>
-                        <a href="#"
+                        <a href="{{ route('partners') }}"
                            class="-mx-3 flex justify-center block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                             <div
                                 class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]">
                                 Partners
                             </div>
                         </a>
-                        <a href="#"
+                        <a href="{{ route('contact') }}"
                            class="-mx-3 flex justify-center block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                             <div
                                 class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]">

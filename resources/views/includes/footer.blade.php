@@ -2,8 +2,8 @@
     <div class="container mx-auto text-center">
         <h2 class="text-lg font-bold mb-4">SETINTEL</h2>
         <ul class="space-y-2">
-            <li><a href="#" class="hover:text-red-500 transition-colors duration-300">About Us</a></li>
-            <li><a href="#" class="hover:text-red-500 transition-colors duration-300">Contact Us</a></li>
+            <li><a href="{{ route('about') }}" class="hover:text-red-500 transition-colors duration-300">About Us</a></li>
+            <li><a href="{{ route('contact') }}" class="hover:text-red-500 transition-colors duration-300">Contact Us</a></li>
             <li><a href="{{ route('policy') }}" class="hover:text-red-500 transition-colors duration-300">Privacy Policy</a></li>
         </ul>
 
@@ -91,9 +91,9 @@
                     <p class="font-bold text-white">SETINTEL</p>
                 </div>
                 <div class="flex">
-                    <p class="px-5 text-white">About us</p>
-                    <p class="px-5 text-white">Contact us</p>
-                    <p class="px-5 text-white -mr-5">Privace policy</p>
+                    <a href="{{ route('about') }}"><p class="px-5 text-white">About us</p></a>
+                    <a href="{{ route('contact') }}"><p class="px-5 text-white">Contact us</p></a>
+                    <a href="{{ route('policy') }}"><p class="px-5 text-white -mr-5">Privace policy</p></a>
                 </div>
             </div>
             <div class="row-start-2 h-20 flex items-center border-t">
