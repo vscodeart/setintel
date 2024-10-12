@@ -13,7 +13,7 @@
     <meta name="author" content="">
 
     <link rel="stylesheet" href="/css/style.css"/>
-    <link rel="icon" type="image/png" href="/css/fav.png"/>
+    <link rel="icon" type="image/png" href="/images/fav.png"/>
 
 
     @vite('resources/css/app.css')
@@ -37,7 +37,7 @@
 <!-- End of Footer -->
 
 
-
+<script src="/js/jquery-3.7.1.js"></script>
 @vite(['resources/js/app.js'])
 @yield('js')
 
