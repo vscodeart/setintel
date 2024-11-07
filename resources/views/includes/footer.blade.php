@@ -1,4 +1,4 @@
-<footer class="lg:hidden text-white py-10 border-t-4 border-solid border-red-900" style="background-color: #303030">
+<footer class="lg:hidden text-white py-10 border-t-4 border-solid border-[#FFD106]" style="background-color: #303030">
     <div class="container mx-auto text-center">
         <h2 class="text-lg font-bold mb-4">SETINTEL</h2>
         <ul class="space-y-2">
@@ -83,7 +83,7 @@
 
 
 
-<footer class="hidden lg:block w-full h-60 border-t-4 border-solid border-red-900 flex items-center px-6" style="background-color: #303030">
+<footer class="hidden lg:block w-full h-60 border-t-4 border-solid border-[#FFD106] flex items-center px-6" style="background-color: #303030">
     <div class="mx-auto max-w-7xl w-full h-40">
         <div class="grid grid-cols-2 grid-rows-2 gap-0">
             <div class="flex justify-between h-20 items-center">

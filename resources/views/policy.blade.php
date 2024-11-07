@@ -3,7 +3,7 @@
 
 
     <div class="h-40 flex justify-center items-center">
-        <p class="text-red-900 font-bold text-4xl">{{ $policy->name }}</p>
+        <p class="text-[#FFD106] font-bold text-4xl">{{ $policy->name }}</p>
     </div>
 
 
