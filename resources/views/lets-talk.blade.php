@@ -2,7 +2,7 @@
 @section('content')
 
     <div class="h-40 flex justify-center items-center">
-        <p class="text-red-900 font-bold text-4xl">Let`s Talk</p>
+        <p class="text-[#FFD106] font-bold text-4xl">Let`s Talk</p>
     </div>
 
 
@@ -37,7 +37,7 @@
                             type="text"
                             placeholder="First Name"
                             name="first_name"
-                            class="border border-red-900 rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-red-900"
+                            class="border border-[#FFD106] rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-red-900"
                         />
                         @error('first_name')
                         <div class="invalid">{{ $message }}</div>
@@ -49,7 +49,7 @@
                             type="text"
                             name="last_name"
                             placeholder="Last Name"
-                            class="border border-red-900 rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-red-900"
+                            class="border border-[#FFD106] rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-red-900"
                         />
                         @error('last_name')
                         <div class="invalid">{{ $message }}</div>
@@ -60,7 +60,7 @@
                             type="text"
                             name="personal_phone"
                             placeholder="Personal Phone"
-                            class="border border-red-900 rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-red-900"
+                            class="border border-[#FFD106] rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-red-900"
                         />
                         @error('personal_phone')
                         <div class="invalid">{{ $message }}</div>
@@ -71,7 +71,7 @@
                             type="email"
                             name="personal_email"
                             placeholder="Personal Email"
-                            class="border border-red-900 rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-red-900"
+                            class="border border-[#FFD106] rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-red-900"
                         />
                         @error('personal_email')
                         <div class="invalid">{{ $message }}</div>
@@ -84,7 +84,7 @@
                         type="text"
                         name="company"
                         placeholder="Company"
-                        class="border border-red-900 rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-red-900"
+                        class="border border-[#FFD106] rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-red-900"
                     />
                     @error('company')
                     <div class="invalid">{{ $message }}</div>
@@ -94,7 +94,7 @@
                   placeholder="Message"
                   name="message"
                   rows="5"
-                  class="border border-red-900 rounded-lg py-2 px-4 w-full focus:outline-none focus:ring-2 focus:ring-red-900"
+                  class="border border-[#FFD106] rounded-lg py-2 px-4 w-full focus:outline-none focus:ring-2 focus:ring-red-900"
               ></textarea>
                         @error('message')
                         <div class="invalid">{{ $message }}</div>
@@ -104,7 +104,7 @@
                     <div class="flex justify-center pt-2">
                         <button
                             type="submit"
-                            class="bg-white text-red-900 py-2 px-12 rounded-full border-2 border-red-900 hover:bg-red-900 hover:text-white transition ease-in-out duration-300"
+                            class="bg-white text-[#FFD106] py-2 px-12 rounded-full border-2 border-[#FFD106] hover:bg-[#FFD106] hover:text-white transition ease-in-out duration-300"
                         >
                             <b>SEND</b>
                         </button>

@@ -2,7 +2,7 @@
     $p ='';
 @endphp
 
-<header class="bg-white border-b-2 border-solid border-red-900">
+<header class="bg-white border-b-2 border-solid border-[#FFD106]">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-3.5 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
             <a href="{{ route('home') }}" class="-m-1.5 p-1.5">
@@ -10,16 +10,16 @@
                     <g clip-path="url(#clip0_264_1438)">
                         <path
                             d="M18.089 0.252303L9.03677 8.78158C8.8518 8.95628 8.7439 9.20475 8.7439 9.46097V14.8845C8.7439 15.1329 8.84409 15.3736 9.02136 15.5483L17.6304 24.0737C17.9849 24.4231 18.5514 24.4309 18.9137 24.0854L20.7018 22.3772C21.0794 22.0161 21.0871 21.4105 20.7133 21.0417L13.5956 13.9954C13.5571 13.9566 13.5224 13.9178 13.4916 13.8712C13.3105 13.6111 12.8403 12.8346 13.0022 11.802C13.1602 10.7809 13.8307 10.1986 14.0003 10.0588C15.349 8.80488 16.694 7.55091 18.0427 6.29307C18.4243 5.93978 19.0216 5.97084 19.3607 6.36295C19.5341 6.56482 19.7885 6.68129 20.0544 6.68129H23.5843C24.409 6.68129 24.8213 5.67191 24.2317 5.08957L19.3684 0.267832C19.0177 -0.0815695 18.4512 -0.089334 18.0928 0.252303H18.089Z"
-                            fill="#910101"/>
+                            fill="#FFD106"/>
                         <path
                             d="M19.3876 35.7515L28.4398 27.2222C28.6248 27.0475 28.7327 26.799 28.7327 26.5428V21.1193C28.7327 20.8708 28.6325 20.6301 28.4552 20.4554L19.8462 11.93C19.4917 11.5806 18.9252 11.5729 18.5629 11.9184L16.7748 13.6266C16.3972 13.9876 16.3895 14.5933 16.7633 14.9621L23.881 22.0083C23.9195 22.0472 23.9542 22.086 23.985 22.1326C24.1661 22.3927 24.6363 23.1691 24.4744 24.2018C24.3164 25.2228 23.6459 25.8052 23.4763 25.9449C22.1276 27.1989 20.7826 28.4529 19.4339 29.7107C19.0523 30.064 18.455 30.0329 18.1159 29.6408C17.9425 29.4389 17.6882 29.3225 17.4223 29.3225H13.8923C13.0676 29.3225 12.6553 30.3319 13.2449 30.9142L18.1082 35.7282C18.4589 36.0776 19.0254 36.0853 19.3838 35.7437L19.3876 35.7515Z"
-                            fill="#910101"/>
+                            fill="#FFD106"/>
                         <path
                             d="M6.06562 12.2095L0.146416 17.7301C-0.0424125 17.9087 -0.0501198 18.2076 0.134855 18.3901L8.33156 26.5893C8.41634 26.6748 8.53195 26.7213 8.65142 26.7213H13.4877C13.8924 26.7213 14.0966 26.2283 13.8076 25.9371L6.23518 18.3357C6.0502 18.1494 6.05791 17.8465 6.25059 17.6718L6.67835 17.2836C6.77469 17.1982 6.82864 17.074 6.82864 16.9459V12.5473C6.82864 12.1474 6.35464 11.9378 6.06562 12.2095Z"
-                            fill="#910101"/>
+                            fill="#FFD106"/>
                         <path
                             d="M31.0603 23.8214L36.9834 18.3008C37.1722 18.1223 37.1799 17.8233 36.9949 17.6409L28.7982 9.44157C28.7134 9.35616 28.5978 9.30957 28.4784 9.30957H23.642C23.2374 9.30957 23.0332 9.80261 23.3222 10.0938L30.8946 17.6952C31.0796 17.8816 31.0719 18.1844 30.8792 18.3591L30.4514 18.7473C30.3551 18.8327 30.3011 18.9569 30.3011 19.085V23.4836C30.3011 23.8835 30.7751 24.0931 31.0642 23.8214H31.0603Z"
-                            fill="#910101"/>
+                            fill="#FFD106"/>
                         <g opacity="0.99">
                             <path
                                 d="M62.749 24.5357C62.8877 23.138 61.9936 21.8802 60.668 21.5463L50.4674 18.9763C47.134 18.1377 44.8411 15.0513 45.0222 11.5573C45.2187 7.67121 48.5213 4.68188 52.3826 4.68188H58.325C63.2153 4.68188 67.1922 8.68447 67.1999 13.611C67.1999 13.6188 67.1922 13.6266 67.1845 13.6266H62.7721C62.7721 13.6266 62.7605 13.6188 62.7605 13.6149C62.7528 11.1575 60.7643 9.15811 58.3211 9.15811H52.3056C50.8682 9.15811 49.6042 10.218 49.4616 11.6583C49.3229 13.0559 50.2169 14.3137 51.5426 14.6476L61.7432 17.2176C65.0766 18.0562 67.3695 21.1426 67.1884 24.6366C66.9918 28.5227 63.6892 31.512 59.8279 31.512H53.8856C48.9953 31.512 45.0183 27.5094 45.0106 22.5829C45.0106 22.5751 45.0183 22.5674 45.026 22.5674H49.4385C49.4385 22.5674 49.45 22.5751 49.45 22.579C49.4577 25.0365 51.4462 27.0358 53.8894 27.0358H59.905C61.3424 27.0358 62.6064 25.976 62.749 24.5357Z"
@@ -61,21 +61,21 @@
             <a href="{{ route('home') }}" class="text-sm font-normal leading-6 text-gray-900">
 
                 <div class="  flex justify-center items-center relative  h-9 px-4 cursor-pointer rounded-[20px]  border
-                          {{ request()->routeIs('home') ? 'font-semibold border-[#910101]':'border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]' }}">
+                          {{ request()->routeIs('home') ? 'font-semibold border-[#FFD106]':'border-[#fff] hover:rounded-[20px] hover:border hover:border-[#FFD106]' }}">
                     Home
                 </div>
             </a>
 
             <a href="{{ route('services') }}" class="text-sm font-normal leading-6 text-gray-900">
                 <div class="  flex justify-center items-center relative  h-9 px-4 cursor-pointer rounded-[20px]  border
-                          {{ request()->routeIs('services') ? 'font-semibold border-[#910101]':'border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]' }}">
+                          {{ request()->routeIs('services') ? 'font-semibold border-[#FFD106]':'border-[#fff] hover:rounded-[20px] hover:border hover:border-[#FFD106]' }}">
                     Services
                 </div>
             </a>
 
             <a href="{{ route('about') }}" class="text-sm font-normal leading-6 text-gray-900">
                 <div class="  flex justify-center items-center relative  h-9 px-4 cursor-pointer rounded-[20px]  border
-                          {{ request()->routeIs('about') ? 'font-semibold border-[#910101]':'border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]' }}">
+                          {{ request()->routeIs('about') ? 'font-semibold border-[#FFD106]':'border-[#fff] hover:rounded-[20px] hover:border hover:border-[#FFD106]' }}">
                         Who we are
                     </div>
             </a>
@@ -83,7 +83,7 @@
 
             <a href="{{ route('partners') }}" class="text-sm font-normal leading-6 text-gray-900">
                 <div class="  flex justify-center items-center relative  h-9 px-4 cursor-pointer rounded-[20px]  border
-                          {{ request()->routeIs('partners') ? 'font-semibold border-[#910101]':'border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]' }}">
+                          {{ request()->routeIs('partners') ? 'font-semibold border-[#FFD106]':'border-[#fff] hover:rounded-[20px] hover:border hover:border-[#FFD106]' }}">
                         Partners
                     </div>
             </a>
@@ -91,7 +91,7 @@
 
             <a href="{{ route('contact') }}" class="text-sm font-normal leading-6 text-gray-900">
                 <div class="  flex justify-center items-center relative  h-9 px-4 cursor-pointer rounded-[20px]  border
-                          {{ request()->routeIs('contact') ? 'font-semibold border-[#910101]':'border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]' }}">
+                          {{ request()->routeIs('contact') ? 'font-semibold border-[#FFD106]':'border-[#fff] hover:rounded-[20px] hover:border hover:border-[#FFD106]' }}">
                         Contact
                     </div>
             </a>
@@ -101,9 +101,9 @@
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="{{ route('lets.talk') }}">
                 <div
-                    class="rounded-[20px] px-3 py-[7px] flex gap-2.5 justify-center items-center relative w-[119px] h-9 border border-[#910101] bg-[#910101] hover:bg-white text-white hover:text-[#910101]">
+                    class="rounded-[20px] px-3 py-[7px] flex gap-2.5 justify-center items-center relative w-[119px] h-9 border border-[#FFD106] bg-[#FFD106] hover:bg-white text-white hover:text-[#FFD106]">
 
-                    <p class="text-center font-bold leading-6 text-lg">
+                    <p class="text-center font-bold leading-6 text-lg text-black">
                         Let’s Talk
                     </p>
                 </div>
@@ -136,16 +136,16 @@
                         <g clip-path="url(#clip0_264_1438)">
                             <path
                                 d="M18.089 0.252303L9.03677 8.78158C8.8518 8.95628 8.7439 9.20475 8.7439 9.46097V14.8845C8.7439 15.1329 8.84409 15.3736 9.02136 15.5483L17.6304 24.0737C17.9849 24.4231 18.5514 24.4309 18.9137 24.0854L20.7018 22.3772C21.0794 22.0161 21.0871 21.4105 20.7133 21.0417L13.5956 13.9954C13.5571 13.9566 13.5224 13.9178 13.4916 13.8712C13.3105 13.6111 12.8403 12.8346 13.0022 11.802C13.1602 10.7809 13.8307 10.1986 14.0003 10.0588C15.349 8.80488 16.694 7.55091 18.0427 6.29307C18.4243 5.93978 19.0216 5.97084 19.3607 6.36295C19.5341 6.56482 19.7885 6.68129 20.0544 6.68129H23.5843C24.409 6.68129 24.8213 5.67191 24.2317 5.08957L19.3684 0.267832C19.0177 -0.0815695 18.4512 -0.089334 18.0928 0.252303H18.089Z"
-                                fill="#910101"/>
+                                fill="#FFD106"/>
                             <path
                                 d="M19.3876 35.7515L28.4398 27.2222C28.6248 27.0475 28.7327 26.799 28.7327 26.5428V21.1193C28.7327 20.8708 28.6325 20.6301 28.4552 20.4554L19.8462 11.93C19.4917 11.5806 18.9252 11.5729 18.5629 11.9184L16.7748 13.6266C16.3972 13.9876 16.3895 14.5933 16.7633 14.9621L23.881 22.0083C23.9195 22.0472 23.9542 22.086 23.985 22.1326C24.1661 22.3927 24.6363 23.1691 24.4744 24.2018C24.3164 25.2228 23.6459 25.8052 23.4763 25.9449C22.1276 27.1989 20.7826 28.4529 19.4339 29.7107C19.0523 30.064 18.455 30.0329 18.1159 29.6408C17.9425 29.4389 17.6882 29.3225 17.4223 29.3225H13.8923C13.0676 29.3225 12.6553 30.3319 13.2449 30.9142L18.1082 35.7282C18.4589 36.0776 19.0254 36.0853 19.3838 35.7437L19.3876 35.7515Z"
-                                fill="#910101"/>
+                                fill="#FFD106"/>
                             <path
                                 d="M6.06562 12.2095L0.146416 17.7301C-0.0424125 17.9087 -0.0501198 18.2076 0.134855 18.3901L8.33156 26.5893C8.41634 26.6748 8.53195 26.7213 8.65142 26.7213H13.4877C13.8924 26.7213 14.0966 26.2283 13.8076 25.9371L6.23518 18.3357C6.0502 18.1494 6.05791 17.8465 6.25059 17.6718L6.67835 17.2836C6.77469 17.1982 6.82864 17.074 6.82864 16.9459V12.5473C6.82864 12.1474 6.35464 11.9378 6.06562 12.2095Z"
-                                fill="#910101"/>
+                                fill="#FFD106"/>
                             <path
                                 d="M31.0603 23.8214L36.9834 18.3008C37.1722 18.1223 37.1799 17.8233 36.9949 17.6409L28.7982 9.44157C28.7134 9.35616 28.5978 9.30957 28.4784 9.30957H23.642C23.2374 9.30957 23.0332 9.80261 23.3222 10.0938L30.8946 17.6952C31.0796 17.8816 31.0719 18.1844 30.8792 18.3591L30.4514 18.7473C30.3551 18.8327 30.3011 18.9569 30.3011 19.085V23.4836C30.3011 23.8835 30.7751 24.0931 31.0642 23.8214H31.0603Z"
-                                fill="#910101"/>
+                                fill="#FFD106"/>
                             <g opacity="0.99">
                                 <path
                                     d="M62.749 24.5357C62.8877 23.138 61.9936 21.8802 60.668 21.5463L50.4674 18.9763C47.134 18.1377 44.8411 15.0513 45.0222 11.5573C45.2187 7.67121 48.5213 4.68188 52.3826 4.68188H58.325C63.2153 4.68188 67.1922 8.68447 67.1999 13.611C67.1999 13.6188 67.1922 13.6266 67.1845 13.6266H62.7721C62.7721 13.6266 62.7605 13.6188 62.7605 13.6149C62.7528 11.1575 60.7643 9.15811 58.3211 9.15811H52.3056C50.8682 9.15811 49.6042 10.218 49.4616 11.6583C49.3229 13.0559 50.2169 14.3137 51.5426 14.6476L61.7432 17.2176C65.0766 18.0562 67.3695 21.1426 67.1884 24.6366C66.9918 28.5227 63.6892 31.512 59.8279 31.512H53.8856C48.9953 31.512 45.0183 27.5094 45.0106 22.5829C45.0106 22.5751 45.0183 22.5674 45.026 22.5674H49.4385C49.4385 22.5674 49.45 22.5751 49.45 22.579C49.4577 25.0365 51.4462 27.0358 53.8894 27.0358H59.905C61.3424 27.0358 62.6064 25.976 62.749 24.5357Z"
@@ -196,35 +196,35 @@
                         <a href="#"
                            class="-mx-3 flex justify-center block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                             <div
-                                class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]">
+                                class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#FFD106]">
                                 Home
                             </div>
                         </a>
                         <a href="#"
                            class="-mx-3 flex justify-center block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                             <div
-                                class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]">
+                                class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#FFD106]">
                                 Services
                             </div>
                         </a>
                         <a href="#"
                            class="-mx-3 flex justify-center block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                             <div
-                                class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]">
+                                class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#FFD106]">
                                 Who are we
                             </div>
                         </a>
                         <a href="#"
                            class="-mx-3 flex justify-center block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                             <div
-                                class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]">
+                                class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#FFD106]">
                                 Partners
                             </div>
                         </a>
                         <a href="#"
                            class="-mx-3 flex justify-center block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                             <div
-                                class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#910101]">
+                                class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#FFD106]">
                                 Contact
                             </div>
                         </a>
