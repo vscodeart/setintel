@@ -79,7 +79,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col lg:space-y-6 lg:py-8 lg:pr-16">
+                <div class="flex flex-col  lg:py-8 lg:pr-16">
                     <input
                         type="text"
                         name="company"
