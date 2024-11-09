@@ -87,7 +87,7 @@
                         class="border border-[#FFD106] rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-red-900"
                     />
                     @error('company')
-                    <div class="invalid">{{ $message }}</div>
+                    <div class="invalid" style="margin-top:initial;">{{ $message }}</div>
                     @enderror
                     <div class="pt-3">
               <textarea
