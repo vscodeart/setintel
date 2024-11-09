@@ -1,0 +1,17 @@
+.tag-content {
+    position: absolute;
+    top: 64px;
+    left: 15px;
+    height: 447px !important;
+    width: 346px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .tag-content {
+        position: absolute;
+        top: 64px;
+        left: 15px;
+        height: 408px !important;
+        width: 351px !important;
+    }
+}

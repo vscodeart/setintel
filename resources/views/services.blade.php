@@ -44,7 +44,7 @@
                 @endphp
                 @if($service->tag_content != null && !empty($tags) && trim($service->content) == '')
                     <div
-                        style="width: 100%; margin: 0 auto"
+                        style="width: 100%; margin: 0 auto; position:relative;"
                         class="max-w-sm bg-white border border-gray-200 flex flex-col rounded-lg shadow h-100 hover:border-[#FFD106]">
                         <div
                             style="text-align: center; padding-bottom: 15px; padding-top: 10px">
@@ -64,7 +64,7 @@
                             <div class="pt-5 w-10/12 m-auto">
                                 @foreach($tags as $tag)
 
-                                    <div class="flex @if ($loop->iteration == 1) pt-5 @elseif($loop->iteration == $countTags) pt-4 pb-20 @else pt-4  @endif">
+                                    <div class="flex @if ($loop->iteration == 1) pt-5 @elseif($loop->iteration == $countTags) pt-4 pb-20 @else pt-4  @endif" style="cursor: pointer;">
                                         <svg
                                             width="40"
                                             height="26"
@@ -96,7 +96,7 @@
 
                                         {{--tag content start--}}
                                         <div
-                                            class="hidden tag-content w-11/12 m-auto h-full flex flex-col flex-grow mb-3.5">
+                                            class="hidden  w-11/12 m-auto h-full flex flex-col flex-grow mb-3.5 tag-content">
                                             <div
                                                 class="rounded-[10px] w-12/13 bg-[#FFD106] flex flex-col flex-grow">
                                                 <div class="flex justify-center items-center pt-7">
@@ -169,7 +169,7 @@
                                                     </svg>
                                                 </div>
                                                 <div class="p-5">
-                                                    <div class="mb-3 font-normal text-white">
+                                                    <div class="mb-3 font-normal dark:text-gray">
                                                         {{ $tag['content'] }}
                                                     </div>
                                                 </div>
