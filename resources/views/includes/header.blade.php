@@ -228,6 +228,13 @@
                                 Contact
                             </div>
                         </a>
+                        <a href="{{ route('lets.talk') }}"
+                           class="-mx-3 flex justify-center block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                            <div
+                                class=" h-8 px-6 rounded-[20px] border border-[#fff] hover:rounded-[20px] hover:border hover:border-[#FFD106]">
+                                Let’s Talk
+                            </div>
+                        </a>
 
 
                     </div>
