@@ -15,7 +15,7 @@
         width: 351px !important;
     }
    svg {
-        display: flex;
-        vertical-align: middle;
+        display: flex !important;
+
     }
 }
