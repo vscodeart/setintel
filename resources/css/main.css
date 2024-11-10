@@ -14,5 +14,8 @@
         height: 408px !important;
         width: 351px !important;
     }
+   svg {
+        display: initial !important;
 
+    }
 }
