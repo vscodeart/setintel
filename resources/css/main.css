@@ -14,4 +14,8 @@
         height: 408px !important;
         width: 351px !important;
     }
+   svg {
+        display: flex;
+        vertical-align: middle;
+    }
 }
