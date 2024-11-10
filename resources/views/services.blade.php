@@ -64,7 +64,7 @@
                             <div class="pt-5 w-10/12 m-auto">
                                 @foreach($tags as $tag)
 
-                                    <div class="flex @if ($loop->iteration == 1) pt-5 @elseif($loop->iteration == $countTags) pt-4 pb-20 @else pt-4  @endif" style="cursor: pointer;">
+                                    <div class="flex @if ($loop->iteration == 1 && count($tags) > 1) pt-5 @elseif($loop->iteration == $countTags) pt-4 pb-20 @elseif(count($tags) == 1) pb-20 @else pt-4  @endif" style="cursor: pointer;">
                                         <svg
                                             width="40"
                                             height="26"
