@@ -88,7 +88,7 @@
                                             </g>
                                             <defs>
                                                 <clipPath id="clip0_264_1438">
-                                                    <rect width="10" height="36" fill="white" />
+                                                    <rect width="40" height="40" fill="white" />
                                                 </clipPath>
                                             </defs>
                                         </svg>
